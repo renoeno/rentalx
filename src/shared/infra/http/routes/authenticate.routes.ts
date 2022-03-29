@@ -1,6 +1,8 @@
+/* eslint-disable import/no-unresolved */
+
 import { Router } from "express";
 
-import { AuthenticateUserController } from "../modules/accounts/useCases/authenticateUser/AuthenticateUserController";
+import { AuthenticateUserController } from "@modules/accounts/useCases/authenticateUser/AuthenticateUserController";
 
 const authenticateRoutes = Router();
 
